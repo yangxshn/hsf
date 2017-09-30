@@ -1,0 +1,2 @@
+MySql数据库，数据库的设置在jdbc.properties文件中
+项目端口号：8081

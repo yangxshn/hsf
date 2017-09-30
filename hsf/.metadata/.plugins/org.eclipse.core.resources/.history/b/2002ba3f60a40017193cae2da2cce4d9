@@ -1,0 +1,9 @@
+package com.api.service;
+/**
+ * 用户业务逻辑层接口
+ * @author Administrator
+ *
+ */
+public interface UserService {
+	
+}

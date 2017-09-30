@@ -1,0 +1,5 @@
+package com.ali.user_provider.dao;
+
+public interface UserDao {
+
+}

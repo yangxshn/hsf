@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<typeAliases>
+		<package name="com.bjpowernode.esupermarket.manager.workbench.domain"/>
+		<package name="com.bjpowernode.esupermarket.manager.user.domain"/>
+		<package name="com.bjpowernode.esupermarket.portal.domain"/>
+		<package name="com.bjpowernode.esupermarket.manager.workbench.vo"/>
+	</typeAliases>
+	
+	<mappers>
+		<package name="com.bjpowernode.esupermarket.manager.workbench.dao"/>
+		<package name="com.bjpowernode.esupermarket.manager.user.dao"/>
+		<package name="com.bjpowernode.esupermarket.portal.dao"/>
+	</mappers>
+	
+</configuration>

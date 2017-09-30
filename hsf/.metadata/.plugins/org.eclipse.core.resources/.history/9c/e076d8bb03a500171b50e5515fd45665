@@ -1,0 +1,17 @@
+package com.ali.user_consumer.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ali.api.service.UserService;
+
+@Controller
+@RequestMapping("user")
+public class UserController {
+	
+	@Autowired
+	private UserService service;
+	
+	
+}

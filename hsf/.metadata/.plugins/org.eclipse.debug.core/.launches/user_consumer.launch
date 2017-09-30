@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="tomcat4EWebapp">
+<booleanAttribute key="com.taobao.alistudio.tomcat.ADVANCE_FILTER_HSF_JAR" value="true"/>
+<stringAttribute key="com.taobao.alistudio.tomcat.ADVANCE_HSF_PORT" value=""/>
+<stringAttribute key="com.taobao.alistudio.tomcat.ADVANCE_HSF_PROJECT_NAME" value=""/>
+<stringAttribute key="com.taobao.alistudio.tomcat.ADVANCE_MONITOR_PORT" value=""/>
+<stringAttribute key="com.taobao.alistudio.tomcat.ADVANCE_PANDORA_PORT" value=""/>
+<stringAttribute key="com.taobao.alistudio.tomcat.ADVANCE_PANDORA_TMP" value=""/>
+<stringAttribute key="com.taobao.alistudio.tomcat.ADVANCE_SHUTDOWN_PORT" value=""/>
+<stringAttribute key="com.taobao.alistudio.tomcat.ADVANCE_SPAS_PORT" value=""/>
+<stringAttribute key="com.taobao.alistudio.tomcat.APP_NAME" value="user_consumer"/>
+<stringAttribute key="com.taobao.alistudio.tomcat.AUTOCONFIG_CONF_FILE" value=""/>
+<booleanAttribute key="com.taobao.alistudio.tomcat.AUTOCONFIG_INTERACTIVE_MODE" value="true"/>
+<stringAttribute key="com.taobao.alistudio.tomcat.CONTEXT_PATH" value="/"/>
+<stringAttribute key="com.taobao.alistudio.tomcat.MAVEN_MAVEN_FILTER_ENCODING" value="UTF-8"/>
+<stringAttribute key="com.taobao.alistudio.tomcat.MAVEN_MAVEN_HOME" value=""/>
+<stringAttribute key="com.taobao.alistudio.tomcat.MAVEN_MVN_CONF_FILE" value=""/>
+<booleanAttribute key="com.taobao.alistudio.tomcat.MAVEN_USE_MAVEN_CLASSPATH" value="false"/>
+<stringAttribute key="com.taobao.alistudio.tomcat.PANDORA_LOCATION" value="E:\ali\taobao-hsf.sar"/>
+<stringAttribute key="com.taobao.alistudio.tomcat.SOURCE_ROOT" value="E:\ali\ali\user_consumer"/>
+<stringAttribute key="com.taobao.alistudio.tomcat.TOMCAT_PORT" value="8082"/>
+<stringAttribute key="com.taobao.alistudio.tomcat.WEBAPP_DIR" value="src/main/webapp"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/user_consumer"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.taobao.catalina.startup.tomcat4e.Tomcat4eBootstrap"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="user_consumer"/>
+</launchConfiguration>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;user-provider/target/classes/hsf-provider-beans.xml&apos; to &apos;service-provider-beans.xml&apos;" description="Rename resource &apos;hsf-provider-beans.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="target/classes/hsf-provider-beans.xml" name="service-provider-beans.xml" stamp="1506651286717" updateReferences="true"/>
+</session>

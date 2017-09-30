@@ -1,0 +1,5 @@
+package com.ali.user_consumer.controller;
+
+public class UserController {
+
+}

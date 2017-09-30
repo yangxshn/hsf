@@ -1,0 +1,38 @@
+package com.ali.user_provider.service.impl;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ali.api.domain.User;
+import com.ali.api.service.UserService;
+import com.ali.user_provider.dao.UserDao;
+
+/**
+ * 业务逻辑层接口实现类
+ * @author Administrator
+ */
+@Service
+public class UserServiceImpl implements UserService{
+	
+	@Autowired
+	private static UserDao userDao;
+
+	public static void main(String[] args) {
+		userDao.queryUserByName(name);
+	}
+	
+	
+	
+	@Override
+	public int addUser(User user) {
+		return userDao.addUser(user);
+	}
+
+	@Override
+	public ArrayList<User> queryUserByName(String name) {
+		return userDao.queryUserByName(name);
+	}
+	
+}

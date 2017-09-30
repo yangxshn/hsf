@@ -1,0 +1,4 @@
+使用方法：
+	1、启动EDAS配置中心edas-config-center
+	2、运行user-provider项目（Ali Tomcat）
+	3、运行user-consumer项目（Ali Tomcat）

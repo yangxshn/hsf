@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ali.user_provider.dao.UserDao">
+	<select id="queryUserByName" resultType="User">
+		select id,deptId,loginAct,name,loginPwd,email,expireTime,lockStatus,allowIps,createBy,createTime,editBy,editTime
+		from user
+		where name like '%' #{name} '%'
+	</select>
+	
+	<update id="">
+		update tbl_user set loginPwd=#{loginPwd} where loginAct=#{loginAct}
+	</update>
+</mapper>

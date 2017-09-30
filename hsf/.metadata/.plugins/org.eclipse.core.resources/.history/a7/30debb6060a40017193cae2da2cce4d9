@@ -1,0 +1,15 @@
+package com.api.service;
+
+import java.util.ArrayList;
+
+import com.api.domain.User;
+
+/**
+ * 用户业务逻辑层接口
+ * @author Administrator
+ *
+ */
+public interface UserService {
+	public int addUser(User user);
+	public ArrayList<User> queryUserByName(String name);
+}
